@@ -8,7 +8,7 @@ if (!apiKey || !apiSecret) {
     throw new Error("Stream API key and secret must be defined in environment variables");
 }
 
-export const chatClient = StreamChat(apiKey, apiSecret);
+export const chatClient = new StreamChat(apiKey, apiSecret);
 
 export const upsertStreamUser = async (userData) => {
     try {
