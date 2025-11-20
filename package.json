@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/shaanzeeeee/mock-bhai/issues"
   },
-  "homepage": "https://github.com/shaanzeeeee/mock-bhai#readme"
+  "homepage": "https://github.com/shaanzeeeee/mock-bhai#readme",
+  "dependencies": {
+    "stream-chat": "^9.24.0"
+  }
 }
