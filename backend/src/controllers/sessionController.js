@@ -4,7 +4,7 @@ import Session from "../models/Session.js";
 
 export async function createSession(req, res) {
     try{
-        const {problem, difficulty} = req.body,
+        const {problem, difficulty} = req.body;
         const userId = req.user._id;
         const clerkId = req.user.clerkId;
 
@@ -142,7 +142,7 @@ export async function endSession(req, res) {
 
         session.status = "completed";
         await session.save();
-        
+
         res.status(200).json({session, message: "Session ended successfully"});
     } catch (error) {
         console.log("Error ending session:", error.message);
