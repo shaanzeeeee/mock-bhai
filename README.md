@@ -63,27 +63,30 @@ Follow these steps to set up the project locally.
 
 1. Clone the Repository
 
+```
 git clone https://github.com/shaanzeeeee/mock-bhai.git
 cd mock-bhai
+```
 
 2. Backend Setup
 Navigate to the backend folder and install dependencies:
-
+```
 cd backend
 npm install
-
+```
 Start the backend server:
-
+```
 npm run start
 # Server runs on http://localhost:3000
-
+```
 3. Frontend Setup
 Open a new terminal, navigate to the frontend folder, and install dependencies:
-
+```
 cd frontend
 npm install
-
+```
 Start the frontend development server:
-
+```
 npm run dev
 # App runs on http://localhost:5173
+```
