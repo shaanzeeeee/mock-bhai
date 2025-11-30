@@ -35,7 +35,7 @@ To run this project, you will need to add the following environment variables to
 ### Backend (`backend/.env`)
 
 ```env
-PORT=5000
+PORT=3000
 DB_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>
 NODE_ENV=development
 CLIENT_URL=http://localhost:5173
@@ -53,10 +53,11 @@ INNGEST_EVENT_KEY=...
 INNGEST_SIGNING_KEY=...
 ```
 ### FrontEnd
+```
 VITE_CLERK_PUBLISHABLE_KEY=pk_test_...
 VITE_API_URL=http://localhost:3000/api
 VITE_STREAM_API_KEY=...
-
+```
 
 🖥️ Installation & Setup
 Follow these steps to set up the project locally.
